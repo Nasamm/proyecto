@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brushed Beauty</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/logo-removebg-preview.png">
 </head>
 <body>
     <!-- Menú de navegación -->
     <section>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="#"> 
-            <img src="img/descarga.png" alt="Logo" width="180" height="100" class="d-inline-block align-text-top"> 
+            <img src="image/logo-removebg-preview.png" alt="Logo" width="90px" height="90px" class="d-inline-block align-text-top"> 
             </a>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUCTOS</a>
+                        <a class="nav-link" href="#productos">PRODUCTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SOBRE NOSOTRAS</a>
+                        <a class="nav-link" href="./sobrenos.html">SOBRE NOSOTRAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="./carrito.html">CARRITO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html">INICIAR SESIÓN</a>
+                        <a class="nav-link" href="./login.html">INICIAR SESIÓN</a>
                     </li>
                 </ul>
             </div>
@@ -38,46 +39,94 @@
     </section>
     <section>
     <!-- Carrusel de imágenes -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1200x400?text=Imagen+1" class="d-block w-100" alt="Imagen 1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Porque todos merecemos cosas únicas</h5>
-                    <p>¡Compra ya!</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a class="card-1" href="./fc1.html">
+                        <img src="image/makeup3.jpg" class="d-block w-100" alt="Imagen 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Porque todos merecemos cosas únicas</h5>
+                            <a class="card-1.1" href="#"><p>¡Compra ya!</p></a> 
+                        </div>  
+                    </a>     
+                </div>
+                <div class="carousel-item">
+                    <a class="card-2" href="./fc2.html">
+                        <img src="image/labial3.jpg" class="d-block w-100" alt="Imagen 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Miles de productos innovadores</h5>
+                            <p>¡Actualiza tu colección!</p>
+                        </div>
+                    </a>   
+                </div>
+                <div class="carousel-item">
+                    <a class="card-3" href="./fc3.html">
+                        <img src="image/makeup2.jpg" class="d-block w-100" alt="Imagen 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Calidad y precios a tu alcance</h5>
+                            <p>Hay muchos productos esperando por ti</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1200x400?text=Imagen+2" class="d-block w-100" alt="Imagen 2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Miles de productos innovadores</h5>
-                    <p>¡Actualiza tu colección!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1200x400?text=Imagen+3" class="d-block w-100" alt="Imagen 3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Calidad y precios a tu alcance</h5>
-                    <p>Hay muchos productos esperando por ti</p>
-                </div>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-        </a>
-     </div>
     </section>
-
+    <section class="container2" id="productos">
+        <h2 class="text-center">PRODUCTOS</h2>
+        <div class="buscar">
+            <input type="text"placeholder="buscar" required> 
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="image/labiales 3.jpg" class="card-img-top"
+                        alt="Producto1">
+                    <div class="card-body">
+                        <h5 class="card-title">Labial Gloss LCT</h5>
+                        <p class="card-text">Caracteristicas: Nuestro labial gloss viene en una amplia variedad de colores y tonos, desde los más sutiles y elegantes hasta los más atrevidos y vibrantes. Así que no importa qué look quieras lograr, siempre tendrás la opción perfecta para ti. </p>
+                        <p class="card-text">Precio: $7.990</p>
+                        <a href="#" class="btn btn-primary">Seleccionar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="image/_6f7c5cd4-3885-47fd-9d0c-7a1c55ac335e.jpg" class="card-img-top"
+                        alt="Producto2">
+                    <div class="card-body">
+                        <h5 class="card-title">Paleta de sombras LCT</h5>
+                        <p class="card-text">Caracteristicas: Cada sombra ha sido cuidadosamente formulada con pigmentos de alta calidad para una aplicación suave y uniforme. La textura sedosa se desliza fácilmente sobre los párpados, y su durabilidad asegura que tu maquillaje se mantendrá intacto durante todo el día (o la noche) sin perder intensidad.</p>
+                        <p class="card-text">Precio: $16.990</p>
+                        <a href="#" class="btn btn-primary">Seleccionar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="image/delineadores1.jpg" class="card-img-top"
+                        alt="Producto3">
+                    <div class="card-body">
+                        <h5 class="card-title">Delineador de ojos</h5>
+                        <p class="card-text">Caracteristicas: Su punta fina y precisa te permitirá crear líneas precisas y definidas, desde un delineado sutil hasta un look más dramático. Además, su textura suave y cremosa hará que la aplicación sea fácil y cómoda, sin tirones ni incomodidades.</p>
+                        <p class="card-text">Precio: $5.990</p>
+                        <a href="#" class="btn btn-primary">Seleccionar</a>
+                    </div>
+                </div>
+            </div>
+    </section>
     
 
 </body>
