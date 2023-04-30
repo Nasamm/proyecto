@@ -1,2 +1,5 @@
-Para que las imagenes del proyecto aparezcan en la pagina web debe descargar la carpeta de imagenes que le compartí por google drive y agregarlas al proyecto. Ya que no las pude subir a github porque pesaban demasiado. 
-Debe iniciar sesion con el correo institucional.
+#Proyecto desarrollo web "Brushed Beauty".
+##Instalación
+1. Clonar repositorio.
+2. Descargar carpeta de imágenes desde el link:  (solo acceso con correo institucional).
+3. Mover la carpeta "image" a la carpeta "public" del proyecto.
