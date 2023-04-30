@@ -1,0 +1,2 @@
+Para que las imagenes del proyecto aparezcan en la pagina web debe descargar la carpeta de imagenes que le compartí por google drive y agregarlas al proyecto. Ya que no las pude subir a github porque pesaban demasiado. 
+Debe iniciar sesion con el correo institucional.

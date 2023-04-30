@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro de compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylecarrito.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="./index.html">
+            <img src="image/logo-removebg-preview.png" alt="Logo" width="90px" height="90px" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#productos">PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sobrenos.html">SOBRE NOSOTRAS</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="./login.html">INICIAR SESIÓN</a>
+                </li>
+                <li class="nav-item" id="carro">
+                    <a class="nav-link" href="./carrito.html">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="center">
+        <form method="post">
+            <fieldset>
+                <legend>Datos del usuario</legend>
+                <p>
+                    <label for="">Nombre de usuario:</label>
+                    <input type="text" name="usuario" placeholder="Ingrese su usuario">
+                </p>
+                <p>
+                    <label for="">Teléfono:</label>
+                    <input type="text" name="uelefono" placeholder="Ingrese su número">
+                </p>
+                <p>
+                    <label for="">Correo</label>
+                    <input type="email" name="" placeholder="juan@gmail.com">
+                </p>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Dirección</legend>
+                <p>
+                    <label for="">Dirección</label>
+                    <input type="text" name="direccion" size="30px" placeholder="Ingrese su dirección">
+                </p>
+                <p>
+                    <label for="">Ciudad</label>
+                    <select name="" id="">
+                        <option value="0"></option>
+                        <option value="1">Viña Del Mar</option>
+                        <option value="2">Valparaíso</option>
+                        <option value="3">Santiago</option>
+                    </select>
+                </p>        
+            </fieldset>
+    
+            <fieldset>
+                <legend>Producto</legend>
+                <img src="https://via.placeholder.com/1200x400?text=Imagen+1" class="img-01" alt="">
+                <p>
+                    <label for="">Nombre del producto:</label>
+                </p>
+                <p>
+                    <label for="">Id producto:</label>
+                </p>
+                <p>
+                    <label for="">Cantidad:</label>
+                </p>
+                <p>
+                    <label for="">Fecha de entrega:</label>
+                    <input type="date" name="fecha">
+                </p>
+            </fieldset>
+            <fieldset class="boton" >
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+                <button ><a href="./index.html#productos">Volver atras</a>
+                </button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/57faba85b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+</html>
